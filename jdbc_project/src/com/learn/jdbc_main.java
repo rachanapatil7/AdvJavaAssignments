@@ -13,7 +13,7 @@ public class jdbc_main {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "mysqlroot");
 			Statement stmt=conn.createStatement();
-			stmt.executeUpdate("insert into person values (4,'Rachael','Rover','Charleston')");
+			stmt.executeUpdate("insert into person values (6,'Rachael','Rover','Charleston')");
 			System.out.println("Done inserting info");
 			conn.close();
 //			
